@@ -3,7 +3,7 @@
     <body>
 	<referenceBlock name="breadcrumbs" remove="true" />
 	<referenceContainer name="page.top">
-		<block class="RB\Breadcrumbs\Block\Breadcrumbs" name="rb_breadcrumbs" as="rb_breadcrumbs" template="RB_Breadcrumbs::breadcrumbs.phtml" />
+		<block class="DevAwesome\Breadcrumbs\Block\Breadcrumbs" name="devawesome_breadcrumbs" as="devawesome_breadcrumbs" template="DevAwesome_Breadcrumbs::breadcrumbs.phtml" />
 	</referenceContainer>
     </body>
 </page>

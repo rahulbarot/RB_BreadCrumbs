@@ -1,5 +1,5 @@
 <?php
-namespace RB\BreadCrumbs\Block;
+namespace DevAwesome\Breadcrumbs\Block;
 
 use Magento\Catalog\Helper\Data;
 use Magento\Framework\View\Element\Template\Context;
