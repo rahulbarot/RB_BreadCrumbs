@@ -5,5 +5,5 @@
  */
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'RB_BreadCrumbs', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'DevAwesome_Breadcrumbs', __DIR__);
 

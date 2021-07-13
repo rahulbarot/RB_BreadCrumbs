@@ -1,6 +1,6 @@
-# Mage2 Module RB BreadCrumbs
+# Mage2 Module DevAwesome Breadcrumbs
 
-    ``rb/module-breadcrumbs``
+    ``devawesome/module-breadcrumbs``
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
@@ -17,8 +17,8 @@ This is a magento 2 module which resolved PDP breadcrumbs issue when there is cu
 
 ### Type 1: Zip file
 
- - Unzip the zip file in `app/code/RB`
- - Enable the module by running `php bin/magento module:enable RB_BreadCrumbs`
+ - Unzip the zip file in `app/code/DevAwesome`
+ - Enable the module by running `php bin/magento module:enable DevAwesome_Breadcrumbs`
  - Apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 
@@ -29,8 +29,8 @@ This is a magento 2 module which resolved PDP breadcrumbs issue when there is cu
     - public repository `packagist.org`
     - public github repository as vcs
  - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
- - Install the module composer by running `composer require rb/module-breadcrumbs`
- - enable the module by running `php bin/magento module:enable RB_BreadCrumbs`
+ - Install the module composer by running `composer require devawesome/module-breadcrumbs`
+ - enable the module by running `php bin/magento module:enable DevAwesome_Breadcrumbs`
  - apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 

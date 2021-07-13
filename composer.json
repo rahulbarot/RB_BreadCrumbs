@@ -1,12 +1,12 @@
 {
-    "name": "rb/module-breadcrumbs",
-    "description": "This is a magento 2 module which resolves PDP breadcrumbs issue when there is custom menu implementation.",
+    "name": "devawesome/module-breadcrumbs",
+    "description": "This is a magento 2 module which resolved PDP breadcrumbs issue when there is custom menu implementation.",
     "type": "magento2-module",
     "license": "GPL-3.0",
     "authors": [
         {
-            "name": "RahulBarot",
-            "email": "rahulbarot.rahu@gmail.com"
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
         }
     ],
     "minimum-stability": "dev",
@@ -16,7 +16,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "RB\\BreadCrumbs\\": ""
+            "DevAwesome\\Breadcrumbs\\": ""
         }
     }
 }
